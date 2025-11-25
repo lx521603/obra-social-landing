@@ -1,22 +1,22 @@
 export const faqs = [
   {
-    question: "Which health plans do you cover?",
+    question: "你们涵盖哪些健康保险计划？",
     answer:
-      "We work with a wide network of health plans and private insurance, ensuring options tailored to every need.",
+      "我们与广泛的健康计划和私人保险公司合作，确保为每个需求提供量身定制的选择。",
   },
   {
-    question: "How can I enroll?",
+    question: "如何注册？",
     answer:
-      "You can start the process by filling out our contact form or calling us directly. We will guide you every step of the way.",
+      "您可以通过填写我们的联系表格或直接致电我们开始流程。我们将在每一步为您提供指导。",
   },
   {
-    question: "Do you provide consultations nationwide?",
+    question: "你们提供全国范围的咨询服务吗？",
     answer:
-      "Yes, we offer in-person care at our locations as well as virtual consultations across the country.",
+      "是的，我们在我们的地点提供面对面护理，同时在全国范围内提供虚拟咨询服务。",
   },
   {
-    question: "Do you have family plans?",
+    question: "你们有家庭计划吗？",
     answer:
-      "Yes, we offer family coverage with special benefits and discounts for family groups.",
+      "是的，我们提供家庭保障，为家庭团体提供特别福利和折扣。",
   },
 ];
