@@ -2,41 +2,41 @@
 import Badge from "./badge.astro";
 
 const values = [
-  "承诺",
-  "同理心",
-  "透明度",
-  "信任",
-  "责任感",
-  "创新",
-  "品质",
-  "团队合作",
-  "尊重",
+  "持久持妆",
+  "自然妆效",
+  "成分安全",
+  "品质保证",
+  "创新科技",
+  "用户至上",
+  "专业研发",
+  "贴心服务",
+  "美丽自信",
 ];
 ---
 
 <section
-  class="relative overflow-hidden bg-[#2F855A] text-white px-6 py-16 md:px-20 flex flex-col gap-16"
+  class="relative overflow-hidden bg-gradient-to-r from-pink-500 to-rose-600 text-white px-6 py-16 md:px-20 flex flex-col gap-16"
 >
   <!-- 使命和愿景 -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-center md:text-left">
     <div>
       <h2 class="text-4xl font-bold mb-4">使命</h2>
       <p class="text-lg leading-relaxed font-semibold">
-        为健康保障提供个性化指导，提供可靠且易于获取的解决方案，确保个人及其家庭的福祉。
+        为每位女性打造持久完美的妆容体验，通过创新的美妆科技让美丽从早到晚始终如一，绽放自信光彩。
       </p>
     </div>
 
     <div>
       <h2 class="text-4xl font-bold mb-4">愿景</h2>
       <p class="text-lg leading-relaxed font-semibold">
-        成为健康保险领域的领导者，以人性化的服务品质、透明度和对我们会员全面健康的承诺而脱颖而出。
+        成为亚洲美妆领域的领导品牌，以卓越的产品品质、专业的色彩科学和对用户美丽需求的深度理解而脱颖而出。
       </p>
     </div>
   </div>
 
   <!-- 价值观 -->
   <div class="flex flex-col items-center md:items-start gap-6">
-    <h2 class="text-2xl font-bold tracking-wide">价值观</h2>
+    <h2 class="text-2xl font-bold tracking-wide">品牌价值观</h2>
     <div class="flex flex-wrap justify-center md:justify-start gap-3">
       {values.map((value) => <Badge label={value} />)}
     </div>
