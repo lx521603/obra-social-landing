@@ -2,45 +2,41 @@
 import Badge from "./badge.astro";
 
 const values = [
-  "Commitment",
-  "Empathy",
-  "Transparency",
-  "Trust",
-  "Responsibility",
-  "Innovation",
-  "Quality",
-  "Teamwork",
-  "Respect",
+  "承诺",
+  "同理心",
+  "透明度",
+  "信任",
+  "责任感",
+  "创新",
+  "品质",
+  "团队合作",
+  "尊重",
 ];
 ---
 
 <section
   class="relative overflow-hidden bg-[#2F855A] text-white px-6 py-16 md:px-20 flex flex-col gap-16"
 >
-  <!-- Mission and Vision -->
+  <!-- 使命和愿景 -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-center md:text-left">
     <div>
-      <h2 class="text-4xl font-bold mb-4">Mission</h2>
+      <h2 class="text-4xl font-bold mb-4">使命</h2>
       <p class="text-lg leading-relaxed font-semibold">
-        Provide personalized guidance on health coverage, offering reliable and
-        accessible solutions that ensure the well-being of individuals and their
-        families.
+        为健康保障提供个性化指导，提供可靠且易于获取的解决方案，确保个人及其家庭的福祉。
       </p>
     </div>
 
     <div>
-      <h2 class="text-4xl font-bold mb-4">Vision</h2>
+      <h2 class="text-4xl font-bold mb-4">愿景</h2>
       <p class="text-lg leading-relaxed font-semibold">
-        To be leaders in the health insurance sector, standing out for human
-        quality, transparency, and commitment to the comprehensive health of our
-        members.
+        成为健康保险领域的领导者，以人性化的服务品质、透明度和对我们会员全面健康的承诺而脱颖而出。
       </p>
     </div>
   </div>
 
-  <!-- Values -->
+  <!-- 价值观 -->
   <div class="flex flex-col items-center md:items-start gap-6">
-    <h2 class="text-2xl font-bold tracking-wide">VALUES</h2>
+    <h2 class="text-2xl font-bold tracking-wide">价值观</h2>
     <div class="flex flex-wrap justify-center md:justify-start gap-3">
       {values.map((value) => <Badge label={value} />)}
     </div>
