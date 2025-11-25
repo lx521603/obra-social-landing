@@ -9,14 +9,14 @@
       </div>
     </a>
 
-    <!-- Links md+ -->
+    <!-- 桌面端链接 -->
     <ul class="hidden md:flex space-x-8">
       <li>
         <a
           href="/"
           class="relative group text-gray-700 font-bold transition-colors duration-300 hover:text-[#2F855A]"
         >
-          Home
+          首页
           <span
             class="absolute left-0 -bottom-2 w-0 h-0.5 bg-[#2F855A] transition-all duration-300 group-hover:w-full"
           ></span>
@@ -27,7 +27,7 @@
           href="/blog"
           class="relative group text-gray-700 font-bold transition-colors duration-300 hover:text-[#2F855A]"
         >
-          Blog
+          博客
           <span
             class="absolute left-0 -bottom-2 w-0 h-0.5 bg-[#2F855A] transition-all duration-300 group-hover:w-full"
           ></span>
@@ -38,18 +38,18 @@
           href="/contact"
           class="px-4 py-2 text-white font-semibold rounded-3xl bg-[#2F855A] hover:bg-[#186e43] transition"
         >
-          Contact
+          联系我们
         </a>
       </li>
     </ul>
 
-    <!-- Menú hamburguesa móvil -->
+    <!-- 移动端汉堡菜单 -->
     <div class="md:hidden relative">
       <input id="menu-toggle" type="checkbox" class="peer hidden" />
 
-      <!-- Botón hamburguesa / cierre -->
+      <!-- 汉堡菜单 / 关闭按钮 -->
       <label for="menu-toggle" class="cursor-pointer z-50 flex items-center">
-        <!-- menu móvil  -->
+        <!-- 汉堡菜单图标 -->
         <svg
           class="h-6 w-6 text-gray-700 peer-checked:hidden"
           fill="none"
@@ -64,7 +64,7 @@
             d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
 
-        <!-- X -->
+        <!-- 关闭图标 -->
         <svg
           class="h-6 w-6 text-gray-700 hidden peer-checked:block"
           fill="none"
@@ -80,17 +80,17 @@
         </svg>
       </label>
 
-      <!-- Overlay semi-transparente -->
+      <!-- 半透明遮罩层 -->
       <label
         for="menu-toggle"
         class="fixed inset-0 bg-black/60 hidden peer-checked:block cursor-pointer z-40"
       ></label>
 
-      <!-- Menú lateral -->
+      <!-- 侧边菜单 -->
       <div
         class="fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform translate-x-full transition-transform duration-300 peer-checked:translate-x-0 z-50"
       >
-        <!-- Botón de cierre -->
+        <!-- 关闭按钮 -->
         <div class="flex justify-end p-4">
           <label for="menu-toggle" class="cursor-pointer">
             <svg
@@ -104,7 +104,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"></path>
+                d="M6 18L18-6M6 6l12 12"></path>
             </svg>
           </label>
         </div>
@@ -114,14 +114,14 @@
             <a
               href="/"
               class="text-gray-700 text-lg font-bold hover:text-[#2F855A]"
-              >Home</a
+              >首页</a
             >
           </li>
           <li>
             <a
               href="/blog"
               class="text-gray-700 text-lg font-bold hover:text-[#2F855A]"
-              >Blog</a
+              >博客</a
             >
           </li>
           <li>
@@ -129,7 +129,7 @@
               href="/contact"
               class="px-4 py-2 text-white font-semibold rounded-lg bg-[#2F855A] hover:bg-[#186e43] transition"
             >
-              Contact
+              联系我们
             </a>
           </li>
         </ul>
