@@ -1,19 +1,18 @@
-// empresasData.js
 export const empresas = [
   {
-    nombre: "粉底液系列",
+    nombre: "底妆大师",
     logo: "💄"
   },
   {
-    nombre: "口红系列", 
+    nombre: "唇妆艺术", 
     logo: "👄"
   },
   {
-    nombre: "洗护系列",
+    nombre: "发肤护理",
     logo: "🧴"
   },
   {
-    nombre: "护肤系列",
+    nombre: "肌肤新生",
     logo: "🌸"
   }
 ];
