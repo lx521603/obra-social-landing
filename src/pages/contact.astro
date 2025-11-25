@@ -4,120 +4,117 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout>
   <section class="px-6 py-20 max-w-7xl mx-auto">
-    <!-- Título centrado -->
+    <!-- 居中标题 -->
     <h2
       class="text-[#2F855A] text-3xl md:text-4xl font-extrabold text-center uppercase mb-12"
     >
-      Contáctanos
+      联系我们
     </h2>
 
-    <!-- Contenedor principal -->
+    <!-- 主要内容容器 -->
     <div class="flex flex-col md:flex-row items-start gap-12">
-      <!-- Texto -->
+      <!-- 文本内容 -->
       <div
         class="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center"
       >
         <p class="text-gray-700 text-2xl font-bold leading-7 mb-6">
-          Déjanos tu mensaje y te responderemos a la brevedad. Nuestro equipo
-          está listo para ofrecerte asesoramiento personalizado y acompañarte en
-          cada paso del proceso.
+          请留下您的信息，我们会尽快回复您。我们的团队随时准备为您提供个性化咨询，并在整个过程中陪伴您。
         </p>
         <p class="text-gray-700 text-2xl font-bold leading-7">
-          También podés comunicarte directamente por teléfono o correo si lo
-          preferís.
+          如果您愿意，也可以直接通过电话或电子邮件与我们联系。
         </p>
       </div>
 
-      <!-- Formulario -->
+      <!-- 表单 -->
       <div class="w-full md:w-1/2 bg-gray-50  rounded-2xl">
         <form >
-          <!-- Grid de dos columnas -->
+          <!-- 两列网格 -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Nombre -->
+            <!-- 姓名 -->
             <div class="flex flex-col">
               <label for="nombre" class="font-semibold text-[#2F855A] mb-2"
-                >Nombre</label
+                >姓名</label
               >
               <input
                 type="text"
                 id="nombre"
                 name="nombre"
-                placeholder="Tu nombre"
+                placeholder="您的姓名"
                 class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#F9C74F]"
                 required
               />
             </div>
 
-            <!-- Apellido -->
+            <!-- 姓氏 -->
             <div class="flex flex-col">
               <label for="apellido" class="font-semibold text-[#2F855A] mb-2"
-                >Apellido</label
+                >姓氏</label
               >
               <input
                 type="text"
                 id="apellido"
                 name="apellido"
-                placeholder="Tu apellido"
+                placeholder="您的姓氏"
                 class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#F9C74F]"
                 required
               />
             </div>
 
-            <!-- Correo -->
+            <!-- 邮箱 -->
             <div class="flex flex-col">
               <label for="correo" class="font-semibold text-[#2F855A] mb-2"
-                >Correo electrónico</label
+                >电子邮箱</label
               >
               <input
                 type="email"
                 id="correo"
                 name="correo"
-                placeholder="tu@correo.com"
+                placeholder="your@email.com"
                 class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#F9C74F]"
                 required
               />
             </div>
 
-            <!-- Teléfono -->
+            <!-- 电话 -->
             <div class="flex flex-col">
               <label for="telefono" class="font-semibold text-[#2F855A] mb-2"
-                >Teléfono</label
+                >电话</label
               >
               <input
                 type="tel"
                 id="telefono"
                 name="telefono"
-                placeholder="+54 9 ..."
+                placeholder="+86 ..."
                 class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#F9C74F]"
               />
             </div>
           </div>
 
-          <!-- Mensaje -->
+          <!-- 消息 -->
           <div class="flex flex-col mt-6">
             <label for="mensaje" class="font-semibold text-[#2F855A] mb-2"
-              >Mensaje</label
+              >消息</label
             >
             <textarea
               id="mensaje"
               name="mensaje"
               rows="5"
-              placeholder="Escribe tu consulta aquí..."
+              placeholder="请在此输入您的咨询..."
               class="border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#F9C74F] resize-none"
               required></textarea>
           </div>
 
-          <!-- Botón -->
+          <!-- 按钮 -->
           <div class="text-center md:text-right mt-4">
             <button
               type="submit"
               class="bg-[#197e37] text-white hover:bg-[#095c22] font-bold px-14 py-3 rounded-full cursor-pointer transition"
             >
-              Enviar
+              发送
             </button>
           </div>
         </form>
       </div>
     </div>
   </section>
-</Layout> 
+</Layout>
